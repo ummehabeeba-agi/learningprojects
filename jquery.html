@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1 class="text">Hello</h1>
+        <div id="content">HII</div>
+    <p class="para1">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <h2>Good morning</h2>
+<p class="para2">Lorem ipsum dolor sit amet consectetur.</p>
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+</ul>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+console.log($(".text"));//class selector
+console.log($("#content"));//id selector
+console.log($("h2 p"));
+console.log($("h1+h2"));
+console.log($("h1~div"));
+console.log($("ul>li"));
+console.log($("ul>li,div p"));
+
+//methods
+console.log($(".text").css("color","pink"));//val()
+console.log($(".text").text());
+console.log($("#content").text());
+console.log($("div").next([type]));
+
+
+
+
+</script>
+</body>
+</html>

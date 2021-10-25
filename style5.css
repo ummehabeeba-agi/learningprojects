@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+   .card1{
+       
+    font-family: "Karla",sans-serif;
+    border: 1px solid lightgray;
+    width: 700px;
+padding: 10px;
+    
+   }
+
+h1{
+color: #4abebd;
+font-size: 130%;
+padding: 10px;
+}
+h2{
+    color: #bfde33;
+    font-size: 100%;
+    padding: 10px;
+}
+p{
+  
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+    padding: 10px;
+}
+.home{
+    border: 1px solid red;
+    height: 300px;
+    width: 700px;
+    display: flex;
+    border: hidden;
+    
+}
+/* left */
+.left{
+    border: 1px solid blue;
+    background-color: #4abebd;
+    width: 50%;
+    color: white;
+    padding: 30px 60px;
+    border: hidden;
+    text-align: center;
+}
+.left div{
+    margin-top: 30px;
+}
+.month{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button{
+    text-decoration: none;
+    color: white;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 10px 50px;
+    border: hidden;
+}
+/* Right */
+.right{
+    border: 1px solid black;
+    width: 50%;
+    color: white;
+    background-color: #2ab2b1;
+    padding: 20px;
+    border: hidden;
+}
+.section{
+    color: white;
+}
+
+.sec-a{
+    color: white;
+}
+.sign{
+    font-weight:bolder;
+}
+span{
+    font-weight: lighter;
+    font-size: 15px;
+   
+}
+.para{
+
+}

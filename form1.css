@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: cyan;
+    
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.left {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("./203592-phone-wallpaper.jpg");
+}
+
+.text {
+  padding-top: 400px;
+  text-align: left;
+  color: white;
+  padding-left: 15px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.month {
+  text-align: right;
+  color: white;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+.right {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.btn {
+  padding: 10px;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+a{
+    padding: 15px;
+}

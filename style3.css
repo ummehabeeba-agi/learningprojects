@@ -1,0 +1,103 @@
+
+.home{
+    display:flex;
+    border:5px solid pink;
+    align-items:center;
+    justify-content:space-around;
+    margin-right:350px;
+    margin-left:70px;
+
+}
+.abc1 a{
+
+    text-decoration:none;
+    justify-content:space-around;
+    padding-left: 90px;
+    font-size:20px;
+
+}
+.abc1{
+    width:650px;
+    justify-content:space-around;
+
+
+}
+.abc2 a{
+    text-decoration:none;
+    border:1px solid black;
+    border-radius:50px;
+    background-color: yellow;
+    padding:10px;
+}
+.home1{
+    display:flex;
+    border:5px solid black;
+    height:300px;
+    margin-right:350px;
+    margin-left:70px;
+
+}
+.xyz1{
+    color:darkgrey;
+}
+.xyz2{
+    height:30px;
+    width:60px;
+    padding-left: 260px;
+}
+
+.xyz3{
+    padding-left:30px;
+}
+.xyz4 a{
+    text-decoration:none;
+    border:1px solid black;
+    border-radius:50px;
+    background-color: green;
+
+}
+
+
+.sin{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:40px;
+    align-items:center;
+    justify-content:space-around;
+    border:3px solid green;
+    margin-right:350px;
+    margin-left:70px;
+    margin-bottom: 200px;
+
+}
+.sin1{
+    font-style:italic;
+    font-size:20px;
+
+}
+.sin2 a{
+    display:flex;
+    flex-direction:column;
+    font-size:20px;
+    text-decoration:none;
+    padding:10px;
+    text-align:left;
+
+}
+.sin3 a{
+    display:flex;
+    flex-direction:column;
+    font-size:20px;
+    text-decoration:none;
+    justify-content:space-around;
+    padding:10px;
+
+}
+
+.sin4{
+    padding-bottom:70px;
+}
+.home4{
+    font-size:20px;
+} 
+ 61  examp4.html 
